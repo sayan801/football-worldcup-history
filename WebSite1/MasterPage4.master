@@ -1,0 +1,299 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage4.master.cs" Inherits="MasterPage4" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            width: 117px;
+        }
+        .style3
+        {
+            width: 1009px;
+            background-color: #99CCFF;
+        }
+        .style4
+        {
+            color: #000066;
+        }
+        .style5
+        {
+            border: 1px ridge #99CCFF;
+            padding: 0px;
+            background-color: #99CCFF;
+        }
+        .style6
+        {
+            width: 130px;
+            border: 1px ridge #99CCFF;
+            padding: 0px;
+            background-color: #FFFFFF;
+        }
+        .style7
+        {
+            width: 740px;
+            background-color: #FFFFFF;
+        }
+        .style9
+        {
+            border: 1px ridge #99CCFF;
+            padding: 0px;
+            background-color: #99CCFF;
+        }
+        .style10
+        {
+            width: 130px;
+            border: 1px ridge #99CCFF;
+            padding: 0px;
+            background-color: #99CCFF;
+        }
+        .style8
+        {
+            width: 740px;
+            background-color: #FFFFFF;
+        }
+        </style>
+</head>
+<body onload="onBack()" background="image/master.jpg" style="height: 842px">
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <p>
+                <br />
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <table cellpadding="0" cellspacing="0" class="style1">
+                <tr>
+                    <td class="style2">
+                        &nbsp;</td>
+                    <td class="style3">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="style4"><strong>bKk
+                        <asp:TextBox ID="TextBox1" runat="server" Height="20px" Width="240px"></asp:TextBox>
+                        </strong>
+                        </span>&nbsp;<span class="style4"><asp:Button ID="Button1" runat="server" Height="20px" 
+                            style="font-weight: 700; color: #99FF33; background-color: #000066" 
+                            Text="Search" />
+&nbsp;<asp:HyperLink ID="HyperLink1" runat="server" Height="20px" 
+                            style="border: 1px outset #FFFFFF; padding: 0px; font-size: small; color: #99FF33; text-align: center; font-weight: 700; font-style: italic; background-color: #000066" 
+                            Width="65px">    My Page</asp:HyperLink>
+&nbsp;<asp:HyperLink ID="HyperLink2" runat="server" Height="20px" 
+                            style="border: 1px outset #FFFFFF; padding: 0px; font-size: small; color: #99FF33; font-weight: 700; font-style: italic; background-color: #000066; text-align: center;" 
+                            Width="65px">My Profile</asp:HyperLink>
+&nbsp;<asp:HyperLink ID="HyperLink3" runat="server" Height="20px" 
+                            style="border: 1px outset #FFFFFF; padding: 0px; font-size: small; color: #99FF33; font-weight: 700; font-style: italic; background-color: #000066; text-align: center;" 
+                            Width="90px">My Messages</asp:HyperLink>
+                        <asp:Label ID="Label2" runat="server" Height="20px" 
+                            style="font-size: x-small; color: #FFFF00; background-color: #FF0000" 
+                            Width="20px"></asp:Label>
+&nbsp;<asp:HyperLink ID="HyperLink4" runat="server" Height="20px" 
+                            style="border: 1px outset #FFFFFF; padding: 0px; font-size: small; font-weight: 700; font-style: italic; color: #99FF33; background-color: #000066; text-align: center;" 
+                            Width="80px">Notifications</asp:HyperLink>
+                        <asp:Label ID="Label3" runat="server" Height="20px" 
+                            
+                            style="font-size: x-small; color: #FFFF00; font-weight: 700; background-color: #FF0000" 
+                            Width="20px"></asp:Label>
+&nbsp;<asp:HyperLink ID="HyperLink5" runat="server" Height="20px" 
+                            style="border: 1px outset #FFFFFF; padding: 0px; font-size: small; font-weight: 700; font-style: italic; color: #99FF33; background-color: #000066; text-align: center;" 
+                            Width="50px">Logout</asp:HyperLink>
+                        </span>
+                        <table cellpadding="0" cellspacing="0" class="style1">
+                            <tr>
+                                <td class="style6" rowspan="6">
+                                    <asp:Image ID="Image1" runat="server" Height="111px" Width="130px" />
+                                </td>
+                                <td class="style7">
+                                    &nbsp;</td>
+                                <td class="style5" rowspan="6">
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="style7">
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="style7">
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="style7">
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="style7">
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="style7">
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="style6">
+                        <asp:Label ID="Label1" runat="server" Height="19px" style="color: #0000CC; font-weight: 700; margin-bottom: 0px;" 
+                            Text="Label" Width="130px" CssClass="style9"></asp:Label>
+                                </td>
+                                <td class="style7">
+                                    &nbsp;</td>
+                                <td class="style9">
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="style10">
+                                    &nbsp;</td>
+                                <td class="style7">
+                                    &nbsp;</td>
+                                <td class="style5" rowspan="6">
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="style10">
+                        <asp:HyperLink ID="HyperLink6" runat="server" Height="19px" 
+                            style="font-weight: 700; color: #0000CC; text-align: left; font-size: medium; background-color: #99CCFF" 
+                            Width="110px">My Page</asp:HyperLink>
+                                </td>
+                                <td class="style7">
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="style10">
+                                    &nbsp;</td>
+                                <td class="style7">
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="style10">
+                        <asp:HyperLink ID="HyperLink7" runat="server" Height="19px" 
+                            style="font-weight: 700; text-align: left; color: #0000CC; background-color: #99CCFF" 
+                            Width="110px">My Profile</asp:HyperLink>
+                                </td>
+                                <td class="style7">
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="style10">
+                                    &nbsp;</td>
+                                <td class="style7">
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="style10">
+                        <asp:HyperLink ID="HyperLink8" runat="server" Height="19px" 
+                            style="font-weight: 700; text-align: left; color: #0000CC; background-color: #99CCFF" 
+                            Width="110px" CssClass="style19">My Messages</asp:HyperLink>
+                        <asp:Label ID="Label4" runat="server" Height="19px" 
+                            
+                            style="color: #000066; text-align: center; background-color: #00FF00; font-size: small;" 
+                            Width="10px" CssClass="style19"></asp:Label>
+                                </td>
+                                <td class="style7">
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="style10">
+                                    &nbsp;</td>
+                                <td class="style7">
+                                    &nbsp;</td>
+                                <td class="style5">
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="style10">
+                        <asp:HyperLink ID="HyperLink9" runat="server" Height="19px" 
+                            style="font-weight: 700; color: #0000CC; background-color: #99CCFF" 
+                            Width="110px">My Friends</asp:HyperLink>
+                        <asp:Label ID="Label5" runat="server" Height="19px" 
+                            
+                            style="color: #000066; text-align: center; background-color: #00FF00; font-size: small;" 
+                            Width="10px"></asp:Label>
+                                </td>
+                                <td class="style7">
+                                    &nbsp;</td>
+                                <td class="style5" rowspan="6">
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="style10">
+                                    &nbsp;</td>
+                                <td class="style7">
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="style10">
+                        <asp:HyperLink ID="HyperLink12" runat="server" 
+                            style="font-weight: 700; color: #0000CC" Height="19px" Width="110px">My Gallary</asp:HyperLink>
+                                </td>
+                                <td class="style7">
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="style10">
+                                    &nbsp;</td>
+                                <td class="style7">
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="style10">
+                        <asp:HyperLink ID="HyperLink10" runat="server" Height="19px" 
+                            style="color: #0000CC; font-weight: 700; background-color: #99CCFF" 
+                            Width="110px">Entertainments</asp:HyperLink>
+                                </td>
+                                <td class="style7">
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="style10">
+                                    &nbsp;</td>
+                                <td class="style7">
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="style10">
+                        <asp:HyperLink ID="HyperLink11" runat="server" Height="19px" 
+                            style="font-weight: 700; color: #0000CC" Width="110px">Chat Room</asp:HyperLink>
+                                </td>
+                                <td class="style7">
+                                    &nbsp;</td>
+                                <td class="style5">
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="style10">
+                                    &nbsp;</td>
+                                <td class="style7">
+                                    &nbsp;</td>
+                                <td class="style5" rowspan="2">
+                                    &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="style10">
+                                    <asp:HyperLink ID="HyperLink13" runat="server" Height="19px" 
+                                        style="font-weight: 700; color: #0000CC" Width="120px">Send mail</asp:HyperLink>
+                                </td>
+                                <td class="style7">
+                                    &nbsp;</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+            </table>
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
