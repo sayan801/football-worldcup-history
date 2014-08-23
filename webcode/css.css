@@ -1,0 +1,185 @@
+body{
+background-color:#F5F5DC;
+
+}
+h2{
+font-family:Papyrus;
+font-weight: bold;
+
+text-align: center;
+color: #000080;
+padding-top: 30px;
+
+}
+h3{
+font-family: Papyrus;font-weight: bold;
+
+text-align: center;
+
+padding-top: 3px;
+
+padding-bottom: 3px;
+
+color: #000080;}
+p{
+font-family: Verdana;
+
+font-weight: bold;
+
+text-align: center;
+
+font-size:20px;
+padding-top: 20px;
+
+padding-bottom: 20px;
+padding-left:20px;
+padding-right:20px;
+color: #FFFFE0;}
+
+
+#x
+{
+    height:1000px!important;
+    width:1000px!important;
+padding-top:5px;
+
+padding-left:5px;
+	
+padding-bottom:5px;
+
+padding-right:5px;
+
+border: 2px solid black;
+	
+font-family: Futura, Tahoma, sans-serif;
+
+color: #BA55D3;
+
+border-radius: 5px 5px;
+
+background-color: #8FBC8F;}
+#xx
+{
+     height:1000px!important;
+    width:1000px!important;
+padding-top:5px;
+
+padding-left:5px;
+	
+padding-bottom:5px;
+
+padding-right:5px;
+
+border: 2px solid black;
+	
+font-family: Futura, Tahoma, sans-serif;
+
+color: #BA55D3;
+
+height: 600px !important;
+border-radius: 5px 5px;
+
+background-color: #8FBC8F;}
+#xxx
+{
+     height:1000px!important;
+    width:1000px!important;
+padding-top:5px;
+
+padding-left:5px;
+	
+padding-bottom:5px;
+
+padding-right:5px;
+
+border: 2px solid black;
+	
+font-family: Futura, Tahoma, sans-serif;
+
+color: #BA55D3;
+
+border-radius: 5px 5px;
+
+background-color: #8FBC8F;}
+#xxxx
+{
+   
+padding-top:5px;
+
+padding-left:5px;
+	
+padding-bottom:5px;
+
+padding-right:5px;
+
+border: 2px solid black;
+	
+font-family: Futura, Tahoma, sans-serif;
+
+color: #BA55D3;
+
+border-radius: 5px 5px;
+
+background-color: #8FBC8F;}
+#xxxxx
+{
+ height:1000px!important;
+border: 2px solid black;
+padding-top:5px;
+
+padding-left:5px;
+	
+padding-bottom:5px;
+
+padding-right:5px;
+	
+border-radius: 5px 5px;
+
+background-color:#8FBC8F;}
+.active {
+    background-color:#556677;
+border-radius: 5px 5px;
+
+}
+
+#xxxxxx
+{
+  height:2200px!important;
+padding-top:5px;
+
+padding-left:5px;
+	
+padding-bottom:5px;
+
+padding-right:5px;
+
+border: 2px solid black;
+	
+font-family: Times New Roman;
+color: #BA55D3;
+
+border-radius: 5px 5px;
+
+background-color:#8FBC8F;}
+li{
+text-align:center;
+}
+ol{
+list-style-type: none;
+}
+ul{
+list-style-type: none;
+}
+td{
+font-family:Comic Sans MS;
+color:#4B0082;
+font-size:20px;
+}
+.stat{
+font-family: Papyrus;
+font-weight: bold;
+
+color: #000080;
+padding-top: 30px;
+
+}
